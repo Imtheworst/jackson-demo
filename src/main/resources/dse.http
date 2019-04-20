@@ -1,0 +1,66 @@
+POST http://localhost:8080/jsoncreator
+Content-Type: application/json
+
+{
+  "success": false,
+  "msg": "请求失效"
+}
+
+###
+POST http://localhost:8080/jacksoninject
+Content-Type: application/json
+
+{
+  "code": 33,
+  "msg": "请求失效"
+}
+
+###
+
+POST http://localhost:8080/jacksoninject
+Content-Type: application/json
+
+{
+  "jcode": 33,
+  "msg": "请求失效"
+}
+
+###
+POST http://localhost:8080/jsonanysetter
+Content-Type: application/json
+
+{
+  "school":"坑口小学",
+  "age":22,
+  "size":100
+//  "city":"上海"
+//  "stu":"Lisa"
+}
+
+###
+
+POST http://localhost:8080/jsondse
+Content-Type: application/json
+
+{
+  "code": 222,
+  "date": "2019-4-20"
+}
+
+###
+GET http://localhost:8080/jsontype
+Content-Type: application/json
+
+###
+POST http://localhost:8080/jsontypeds
+Content-Type: application/json
+
+{
+  "person": {
+    "type": "chinese",
+    "tianAnMen": "天安门",
+    "siChuan": "四川"
+  }
+}
+
+###

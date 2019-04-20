@@ -1,0 +1,28 @@
+GET http://localhost:8080/jsonanygetter
+
+###
+GET http://localhost:8080/jsongetter
+
+###
+GET http://localhost:8080/jsonorder
+
+###
+GET http://localhost:8080/jsonraw
+
+###
+GET http://localhost:8080/jsonvaluep
+###
+GET http://localhost:8080/jsonview
+
+###
+GET http://localhost:8080/jsonserializep
+
+###
+POST http://localhost:8080/corporation/getCorporationBase
+Content-Type: application/json
+
+{
+  "UNI_SC_ID": "asdasdas"
+}
+
+###
